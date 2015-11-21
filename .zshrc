@@ -1,4 +1,4 @@
-export ZSH=/root/.oh-my-zsh
+export ZSH=~/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"
 
@@ -22,6 +22,6 @@ source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
 export EDITOR='vim'
 
-source ~/.dotfiles/zsh/bgnotify
+source ~/.dotfiles/zsh/bgnotify.zsh
 
 source ~/.rvm/scripts/rvm
