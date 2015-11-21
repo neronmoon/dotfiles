@@ -23,5 +23,3 @@ export LANG=en_US.UTF-8
 export EDITOR='vim'
 
 source ~/.dotfiles/zsh/bgnotify.zsh
-
-source ~/.rvm/scripts/rvm
