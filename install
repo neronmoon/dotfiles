@@ -2,7 +2,8 @@
 
 if [[ ! -d ~/.dotfiles ]]; then
   sudo apt-get -y install git mc zsh htop vim
-  git clone git@github.com:neronmoon/dotfiles.git ~/.dotfiles
+  git clone https://github.com/neronmoon/dotfiles.git ~/.dotfiles
   sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 fi
-ln -sf ~/.dotfiles/.[!.]* ~/
+ln -sf ~/.dotfiles/.* ~/
+rm -f .git
