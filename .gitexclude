@@ -1,0 +1,10 @@
+*.orig
+
+*.iml
+*.idea
+
+*.py[co]
+*.sw[po]
+*.log
+
+.DS_Store
