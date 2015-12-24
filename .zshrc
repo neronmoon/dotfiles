@@ -21,5 +21,3 @@ source $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
 export EDITOR='vim'
-
-source ~/.dotfiles/zsh/bgnotify.zsh
