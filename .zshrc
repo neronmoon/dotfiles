@@ -18,6 +18,9 @@ plugins=(git debian )
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 
 source $ZSH/oh-my-zsh.sh
+source ~/.dotfiles/zsh/.iterm2_shell_integration.zsh
 
 export LANG=en_US.UTF-8
 export EDITOR='vim'
+
+

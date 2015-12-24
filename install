@@ -8,4 +8,4 @@ fi
 ln -sf ~/.dotfiles/.[!.]* ~/
 rm -f .git
 
-curl -L https://iterm2.com/misc/install_shell_integration.sh | zsh
+source ~/.zshrc
