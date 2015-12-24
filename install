@@ -7,5 +7,3 @@ if [[ ! -d ~/.dotfiles ]]; then
 fi
 ln -sf ~/.dotfiles/.[!.]* ~/
 rm -f .git
-zsh
-source ~/.zshrc
